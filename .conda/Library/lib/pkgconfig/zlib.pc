@@ -1,0 +1,13 @@
+prefix=c:/Users/Elizabeth/Documents/data_cleaning/ml_100k/.conda/Library
+exec_prefix=c:/Users/Elizabeth/Documents/data_cleaning/ml_100k/.conda/Library
+libdir=c:/Users/Elizabeth/Documents/data_cleaning/ml_100k/.conda/Library/lib
+sharedlibdir=c:/Users/Elizabeth/Documents/data_cleaning/ml_100k/.conda/Library/lib
+includedir=c:/Users/Elizabeth/Documents/data_cleaning/ml_100k/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
